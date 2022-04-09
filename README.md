@@ -57,3 +57,16 @@ To create a topic, follow these steps:
 
 
 ![pubsub](https://user-images.githubusercontent.com/103310597/162566654-8128427e-14ba-4759-9855-6c0b479e4033.JPG)
+
+**4. Created Cloud Storage - GCP Bucket**
+
+Cloud storage is created to store the incoming csv files which will be read by publisher program to push it into anz-customer-pos topic.
+
+![storage](https://user-images.githubusercontent.com/103310597/162567047-294bf105-ff2e-42ef-9fa3-9fbc5e24a83a.JPG)
+
+**5. Created BigQuery - Dataset and Tables**
+
+Streaming job is suppose to read the data from topic, apply business transformation rule and final results need to be loaded into Bigquery 
+my_dataset.authorized-transactions 
+
+![bigquery](https://user-images.githubusercontent.com/103310597/162567234-ac2d72c3-fb8f-47aa-8f7e-1b6e99cb4a9f.JPG)
