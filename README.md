@@ -24,3 +24,21 @@ Write the output records to " authorized-transactions " BQ table under "my-datas
 It would be nice to create a template out of your data flow job, but this is optional.
 We would be happier if you could create a job name called "anz-trans-pub-sub-to-bq" to run only b/w 8 am to 9 am daily using cloud composer. This task is entirely optional.
 
+# Assignement completion details
+
+**Prerequisite - **
+Created new free account in Google cloud to create and deploy all the solutions.
+
+**1. Technical Architecture**
+
+Based on my understanding on coding challenge, I have created the technical architecture design and mapped all the steps need to be considered to built the Real Time streaming job.
+
+![Architecture](https://user-images.githubusercontent.com/103310597/162565709-756add69-9ef0-4daf-b743-f1d0aafa2880.JPG)
+
+**2. Created JSON Schema based on input data**
+
+Refer the attached file transaction_schema.json to see the details of schema created based on input csv file.
+
+Sample:
+
+
