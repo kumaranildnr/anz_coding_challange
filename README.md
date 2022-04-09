@@ -41,4 +41,19 @@ Refer the attached file transaction_schema.json to see the details of schema cre
 
 Sample:
 
+![json schema](https://user-images.githubusercontent.com/103310597/162566329-77817451-c35b-4a07-84ce-af67c2bbbc8f.JPG)
 
+Note: Followed very simple approach to design single object level JSON schema for simplicity. This design can be enhanced to have array, nested fields etc. based on actual business requirement and details.
+
+**3. Created Topic - pubsub**
+
+To create a topic, follow these steps:
+- In the Cloud Console, go to the Pub/Sub Topics page. Go to Topics.
+- Click Create topic.
+- In the Topic ID field, enter an ID for your topic.
+- Retain the option Add a default subscription.
+- Do not select the other options.
+- Click Create topic.
+
+
+![pubsub](https://user-images.githubusercontent.com/103310597/162566654-8128427e-14ba-4759-9855-6c0b479e4033.JPG)
