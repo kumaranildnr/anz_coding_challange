@@ -1,1 +1,5 @@
+# Databricks notebook for all the transformation mentioned in task
 https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/53091448621775/3506930938152583/892720474476324/latest.html
+
+# Databricks notebook for reading transaction data, converting into JSON object, 100 message in 1 min
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/53091448621775/2264229291426469/892720474476324/latest.html
