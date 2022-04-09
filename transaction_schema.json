@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/schema",
+  "$id": "https://anz.com/transaction.schema.json",
+  "title": "Transaction",
+  "description": "Transactional data for hypothetical customers",
+  "type": "object",
+  "properties": {
+    "status": {
+      "description": "Status of transaction",
+      "type": "string"
+    },
+    "card_present_flag": {
+      "description": "Card presence flag",
+      "type": "integer"
+    },
+    "bpay_biller_code": {
+      "description": "bpay biller code",
+      "type": "integer"
+    },
+    "account": {
+      "description": "Account details",
+      "type": "string"
+    },
+    "currency": {
+      "description": "Currency details",
+      "type": "string"
+    },
+    "long_lat": {
+      "description": "Details of longitude and latitude",
+      "type": "string"
+    },
+    "txn_description": {
+      "description": "Description of transaction",
+      "type": "string"
+    },
+    "merchant_id": {
+      "description": "Merchant Id Details",
+      "type": "string"
+    },
+    "merchant_code": {
+      "description": "Merchant code",
+      "type": "integer"
+    },
+    "first_name": {
+      "description": "First Name",
+      "type": "string"
+    },
+    "balance": {
+      "description": "Balance",
+      "type": "number"
+    },
+    "date": {
+      "description": "Date of txn",
+      "type": "date"
+    },
+    "gender": {
+      "description": "Gender",
+      "type": "string"
+    },
+    "age": {
+      "description": "age",
+      "type": "integer"
+    },
+    "merchant_suburb": {
+      "description": "merchant suburb",
+      "type": "string"
+    },
+    "merchant_state": {
+      "description": "merchant state",
+      "type": "string"
+    },
+    "extraction": {
+      "description": "extraction",
+      "type": "timestamp"
+    },
+    "amount": {
+      "description": "amount",
+      "type": "number"
+    },
+    "transaction_id": {
+      "description": "transaction id",
+      "type": "string"
+    },
+    "country": {
+      "description": "country",
+      "type": "string"
+    },
+    "customer_id": {
+      "description": "customer id",
+      "type": "string"
+    },
+    "merchant_long_lat": {
+      "description": "Longitude and latitude of merchant",
+      "type": "string"
+    },
+    "movement": {
+      "description": "movement",
+      "type": "string"
+    }
+  },
+  "required": [ "status", "card_present_flag", "bpay_biller_code", "account,currency", "long_lat", "txn_description", "merchant_id", "merchant_code", "first_name", "balance", "date", "gender", "age", "merchant_suburb", "merchant_state", "extraction", "amount", "transaction_id", "country", "customer_id", "merchant_long_lat", "movement" ]
+}
