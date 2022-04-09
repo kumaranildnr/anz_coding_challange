@@ -70,3 +70,18 @@ Streaming job is suppose to read the data from topic, apply business transformat
 my_dataset.authorized-transactions 
 
 ![bigquery](https://user-images.githubusercontent.com/103310597/162567234-ac2d72c3-fb8f-47aa-8f7e-1b6e99cb4a9f.JPG)
+
+**6. Created service account - pubsub and BigQuery**
+
+A GCP Service Account and private key are needed to access the Pub/Sub and BigQuery services from a Python application.
+
+![service accnt](https://user-images.githubusercontent.com/103310597/162567447-a1307567-f5b2-4955-b3ab-b6d791319bc7.JPG)
+
+**7. Created Dataflow**
+
+Used Pub/Sub Topic to BigQuery template to create Dataflow (anz-trans-pub-sub-to-bq). This will read message from pub/sub and load into BigQuery Table.
+
+![dataflow](https://user-images.githubusercontent.com/103310597/162567619-11b10fdd-f8be-4fe5-b0be-d11b98e315e7.JPG)
+
+
+
