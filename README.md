@@ -83,5 +83,9 @@ Used Pub/Sub Topic to BigQuery template to create Dataflow (anz-trans-pub-sub-to
 
 ![dataflow](https://user-images.githubusercontent.com/103310597/162567619-11b10fdd-f8be-4fe5-b0be-d11b98e315e7.JPG)
 
+**8. Created Cloud Composer - Airflow**
 
+Dataflow job need to be scheduled to run only between 8am to 9am daily. Created DAG and uploaded into DAG bucket to schedule the dataflow 'anz-trans-pub-sub-to-bq' job
+
+![dag](https://user-images.githubusercontent.com/103310597/162615145-accf05a1-9245-4227-9cbf-f2bd06620fbf.JPG)
 
